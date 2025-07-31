@@ -85,7 +85,7 @@ function ContactUs() {
               <div className="space-y-6 sm:space-y-8 w-full lg:w-auto">
                 <div>
                   <p
-                    className="uppercase mb-2 text-center lg:text-left"
+                    className="uppercase mb-2 text-left"
                     style={{
                       color: "#10295A",
                       fontFamily: '"DM Sans"',
@@ -98,7 +98,7 @@ function ContactUs() {
                     CONTACT US
                   </p>
                   <h1
-                    className="uppercase text-center lg:text-left"
+                    className="uppercase text-left"
                     style={{
                       color: "#07B7E0",
                       fontFamily: '"DM Sans"',
@@ -114,7 +114,7 @@ function ContactUs() {
 
                 <div className="space-y-4 sm:space-y-6">
                   <h2
-                    className="text-center lg:text-left"
+                    className="text-left"
                     style={{
                       color: "#10295A",
                       fontFamily: '"DM Sans"',
@@ -126,7 +126,7 @@ function ContactUs() {
                     Si-Flux India Pvt. Ltd.
                   </h2>
 
-                  <div className="space-y-4 max-w-sm mx-auto lg:mx-0">
+                  <div className="space-y-4 max-w-sm mx-0">
                     <div className="flex items-start space-x-3">
                       <MapPin className="w-5 h-5 text-gray-600 mt-1 flex-shrink-0" />
                       <div

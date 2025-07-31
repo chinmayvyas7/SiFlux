@@ -28,10 +28,7 @@ const Services = () => {
         {/* Gradient Overlay on Background */}
         <div
           className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(180deg, #2563eb 0%, #3b82f6 40%, #60a5fa 70%, #bae6fd 100%)",
-          }}
+          style={{ backgroundColor: "#10295A" }}
         />
       </div>
 

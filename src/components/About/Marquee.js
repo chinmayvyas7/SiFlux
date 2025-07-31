@@ -24,7 +24,7 @@ function CardCarousel({ socialMediaData }) {
         gradient={true} // Enable gradient
         gradientColor={[248, 251, 253]} // RGB color for the gradient
         speed={50}
-        pauseOnHover={true}
+        // pauseOnHover={true}
         className="custom-marquee"
       >
         {loopingCards.map((card, index) => (

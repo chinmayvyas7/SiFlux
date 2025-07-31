@@ -92,38 +92,7 @@ const SiphonicTech = () => {
               alt="components of a multi outlet siphonic system"
               className="w-full h-auto object-contain"
             />
-            <div className="flex justify-end mt-0">
-              <h3 className="text-LEFT max-w-[600px]">
-                <span
-                  className="block"
-                   style={{
-                    color: "#10295A",
-                    fontFeatureSettings: '"liga" off, "clig" off',
-                    fontFamily: '"DM Sans"',
-                    fontSize: "clamp(16px, 3vw, 28px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight: "1.2",
-                  }}
-                >
-               COMPONENTS OF A 
-                </span>
-                <span
-                  className="block"
-                  style={{
-                    color: "#10295A",
-                    fontFeatureSettings: '"liga" off, "clig" off',
-                    fontFamily: '"DM Sans"',
-                    fontSize: "clamp(16px, 3vw, 28px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight: "1.2",
-                  }}
-                >
-               MULTI-OUTLET SIPHONIC SYSTEM
-                </span>
-              </h3>
-            </div>
+          
           </div>
        
         </div>

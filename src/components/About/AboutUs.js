@@ -1,9 +1,9 @@
-import  { useRef, useEffect, useState } from "react";
+import { useRef, useEffect, useState } from "react";
 import FooterDark from "../GlobalComponents/FooterDark";
 import Navbar from "../GlobalComponents/NavBar";
 import CardCarousel from "./Marquee";
 import india from "../../assets/AboutPage/siflux global and india/24.webp";
-import world from "../../assets/AboutPage/siflux global and india/21.jpg";
+import world from "../../assets/AboutPage/siflux global and india/23.webp";
 
 //logos
 import logo1 from "../../assets/AboutPage/logos/bulb.png";
@@ -706,16 +706,16 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-
+        {/* Rest of your sections remain unchanged */}
         {/* Rest of your sections remain unchanged */}
         <div className="relative bg-white py-12 md:py-16 lg:py-20">
           <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 z-20">
             <div className="bg-white rounded-t-full w-[65px] h-[65px]"></div>
           </div>
 
-          <div className="container mx-auto px-4 md:px-8 lg:px-16 xl:pl-[7.25rem] max-w-7xl">
-            <div className="grid lg:grid-cols-10 gap-8 lg:gap-0 items-start lg:items-center">
-              <div className="lg:col-span-7 order-2 lg:order-1">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-0 items-start lg:items-center">
+            <div className="flex-1 order-2 lg:order-1">
+              <div className="container mx-auto px-4 md:px-8 lg:px-16 xl:pl-[7.25rem] max-w-7xl">
                 <h2 className="mb-6 md:mb-8">
                   <span className="block text-[#07B7E0] font-bold text-lg md:text-2xl lg:text-[24px] uppercase font-['DM_Sans'] leading-tight mb-1">
                     SI-FLUX
@@ -765,11 +765,14 @@ const AboutUs = () => {
                   </p>
                 </div>
               </div>
-              <div className="lg:col-span-3 order-1 lg:order-2">
+            </div>
+            <div className="flex-1 order-1 lg:order-2 lg:pl-5 pl-[32px] lg:pl-5">
+              {" "}
+              <div className="w-full max-w-sm md:max-w-md lg:max-w-none h-[400px] md:h-[500px] lg:h-[600px]">
                 <img
                   src={world}
                   alt="World Map Graphic"
-                  className="w-full h-[300px] md:h-[400px] lg:h-[600px] object-cover rounded-lg lg:rounded-none"
+                  className="w-full h-full object-contain rounded-lg lg:rounded-none"
                 />
               </div>
             </div>
@@ -781,17 +784,21 @@ const AboutUs = () => {
             <div className="bg-gray-100 rounded-t-full w-[65px] h-[65px]"></div>
           </div>
 
-          <div className="container mx-auto px-4 md:px-8 lg:px-16 max-w-7xl">
-            <div className="grid lg:grid-cols-10 gap-8 lg:gap-16 items-start lg:items-center">
-              <div className="lg:col-span-3 order-1">
-                <img
-                  src={india}
-                  alt="India Map Graphic"
-                  className="w-full h-[250px] md:h-[350px] lg:h-[400px] object-cover rounded-lg lg:rounded-none"
-                />
-              </div>
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-0 items-start lg:items-center">
+            <div className="flex-1 order-1 lg:pr-5 pl-[80px] lg:pl-0">
+              {" "}
+             <div className="w-full h-[350px] md:h-[450px] lg:h-[500px] flex items-center justify-center lg:block">
+  <img
+    src={india}
+    alt="India Map Graphic"
+    className="w-full h-full object-contain rounded-lg lg:rounded-none"
+  />
+</div>
 
-              <div className="lg:col-span-7 order-2">
+            </div>
+
+            <div className="flex-1 order-2">
+              <div className="container mx-auto px-4 md:px-8 lg:px-16 max-w-7xl">
                 <div className="max-w-[863px] lg:ml-auto">
                   <div className="mb-4 md:mb-6">
                     <span className="block text-[#07B7E0] font-bold text-lg md:text-2xl lg:text-[24px] uppercase font-['DM_Sans'] leading-tight mb-1">
@@ -817,7 +824,6 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-
         <div className="w-full mb-8 md:mb-12 lg:mb-16">
           <CardCarousel />
         </div>
