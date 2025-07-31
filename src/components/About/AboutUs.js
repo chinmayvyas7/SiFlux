@@ -787,14 +787,13 @@ const AboutUs = () => {
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-0 items-start lg:items-center">
             <div className="flex-1 order-1 lg:pr-5 pl-[80px] lg:pl-0">
               {" "}
-             <div className="w-full h-[350px] md:h-[450px] lg:h-[500px] flex items-center justify-center lg:block">
-  <img
-    src={india}
-    alt="India Map Graphic"
-    className="w-full h-full object-contain rounded-lg lg:rounded-none"
-  />
-</div>
-
+              <div className="w-full h-[350px] md:h-[450px] lg:h-[500px] flex items-center justify-center lg:block">
+                <img
+                  src={india}
+                  alt="India Map Graphic"
+                  className="w-full h-full object-contain rounded-lg lg:rounded-none"
+                />
+              </div>
             </div>
 
             <div className="flex-1 order-2">

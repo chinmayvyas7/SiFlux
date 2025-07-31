@@ -125,8 +125,8 @@ const SiFluxHomepage = () => {
           </button>
 
           {/* Content - Moved towards bottom */}
-          <div className="absolute bottom-32 sm:bottom-40 md:bottom-48 left-0 right-0 z-30">
-            <div className="text-center text-white px-4 sm:px-6 md:px-8 max-w-4xl mx-auto">
+{/* Content - Moved towards bottom */}
+<div className="absolute bottom-80 sm:bottom-40 md:bottom-48 left-0 right-0 z-30">            <div className="text-center text-white px-4 sm:px-6 md:px-8 max-w-4xl mx-auto">
               <h1 className="text-white text-center font-dm-sans text-xl sm:text-2xl md:text-3xl lg:text-[32px] font-bold uppercase tracking-wider leading-snug mb-0 drop-shadow-[0_4px_6px_rgba(0,0,0,0.8)] shadow-black/80">
                 {slides[currentSlide].title}
               </h1>
