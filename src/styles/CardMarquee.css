@@ -1,0 +1,21 @@
+.marquee-container {
+    background: #FFF;
+    box-shadow: 0px 0px 16.1px 0px rgba(0, 0, 0, 0.20);
+    width: auto;
+    height: 169.178px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /* padding-left: 20px; */
+}
+
+.marquee-card {
+    margin-right: 143px;
+}
+
+.marquee-img {
+    height: 100px;
+    /* optional: control image size */
+    object-fit: contain;
+}
